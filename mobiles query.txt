@@ -1,0 +1,16 @@
+
+create table MOBILES(Prodid varchar(5) primary key,ModelName varchar(50),Company varchar(30),Connectivity varchar(4),RAM int,ROM int,Color varchar(30),
+Processor varchar(70),Screen varchar(30),Battery int, Price float,Rating float check(Rating=4.3));
+
+insert into MOBILES values(38,"Samsung Galaxy S21 FE","Samsung","5G",8,128,"Lavender","Octa-core Exynos 2100","6.4inch",4500,54999.00,4.3);
+insert into MOBILES values(95,"Samsung Galaxy Z Fold3","Samsung","5G",12,256,"Black","Qualcomm Snapdragon 888 Octa-core","7.6inch",4400,149999.00,4.3);
+insert into MOBILES values(27,"Samsung Galaxy F23","Samsung","5G",6,128,"Forest Green","Qualcomm Snapdragon 750G","6.6inch",5000,16999.00,4.3);
+insert into MOBILES values(76,"OnePlus Nord 2","OnePlus","5G",8,128,"Blue Haze","MediaTek Dimensity 1200","6.43inch",4500,29999.00,4.3);
+insert into MOBILES values(40,"OnePlus 9R","OnePlus","5G",12,256,"Carbon Black","Qualcomm Snapdragon 870","6.55inch",4500,37999.00,4.3);
+insert into MOBILES values(12,"Xiaomi 11 Lite NE","Xiaomi","5G",6,128,"Vinyl Black","Qualcomm Snapdragon 778G","6.55inch",4250,26999.00,4.3);
+insert into MOBILES values(23,"Vivo Y33T","Vivo","4G",8,128,"Mid Day Dream","Snapdragon 680 Octa core","6.58inch",5000,18990.00,4.3);
+insert into MOBILES values(59,"Redmi Note 11","Redmi","4G",6,128,"Starburst White","Qualcomm Snapdragon 680","6.43inch",5000,15999.00,4.3);
+insert into MOBILES values(63,"Oppo A53s","OPPO","5G",8,128,"Ink Black","MediaTek Dimensity 700","6.52inch",5000,17550.00,4.3);
+insert into MOBILES values(19,"Oppo A54","Oppo","4G",4,128,"Starry Blue","MediaTek Helio P35","6.51inch",5000,16.990,4.3);
+insert into MOBILES values(52,"Lava X2","Lava","4G",2,32,"Striped Blue","MediaTek Heilo A25","6.5inch",5000,6998.00,4.3);
+insert into MOBILES values(5,"Tecno Spark 8C","Tecno","4G",6,64,"Iris Purple","Unisoc Tiger T606","6.6inch",5000,8099.00,4.3);
